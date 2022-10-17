@@ -4,10 +4,9 @@ import json
 
 class NextPage(kcommand):
 	nextPageHash = str(uuid.uuid4())
-    
-    def __init__(self):
-        super(NextPage, self).__init__(
-            "NextPage", self.nextPageHash)
+
+	def __init__(self):
+		super(NextPage, self).__init__("NextPage", self.nextPageHash)
 
 class Dashboard(Kapp):
     name = "Dashboard"
