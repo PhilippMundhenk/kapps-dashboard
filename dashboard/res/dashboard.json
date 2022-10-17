@@ -1,0 +1,25 @@
+{
+"name": "Dashboard1",
+"pages":
+    [
+        {
+        "content":
+            [
+                {
+                "id": "crystal-ball",
+                "left": "10%",
+                "top": "10%",
+                "type": "mdi"
+                },
+                {
+                "left": "20%",
+                "text": "test",
+                "top": "15%",
+                "type": "text"
+                }
+            ],
+        "name": "page1"
+        }
+    ],
+"start": "page1"
+}
